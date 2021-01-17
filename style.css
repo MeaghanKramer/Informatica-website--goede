@@ -1,0 +1,96 @@
+html {
+  background-color: rgb(211, 32, 32);
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+}
+
+#header {
+background-color: blue;
+top: 0px;
+width: 100%;
+height: 10%;
+}
+
+#home {
+width: 13%;
+height: 100%;
+float: left;
+}
+
+#home:hover {
+background-color:paleturquoise;
+color: white;
+}
+
+#information{
+width: 13%;
+height: 100%;
+float: left;
+}
+
+#information:hover {
+background-color: paleturquoise;
+color: white;
+}
+
+#about {
+width: 13%;
+height: 100%;
+float: left;
+}
+
+#about:hover {
+background-color: paleturquoise;
+color: white;
+}
+
+#contact {
+width: 13%;
+height: 100%;
+float: left;
+}
+
+#contact:hover {
+background-color: paleturquoise;
+color: white;
+}
+
+#botton {
+text-align: center;
+font-size: 150%;
+}
+
+#body {
+height: 80%;
+width: 100%;
+background-color: paleturquoise;
+ }
+
+#title {
+padding-top: 18%;
+margin: 0;
+text-align: center;
+text-shadow: 2px 2px red;
+font-family: 'Times New Roman', Times, serif;
+font-size: 400%;
+}
+
+#subtitle {
+text-align: center;
+padding-top: 5%;
+text-shadow: 1px 1px red;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#bottom {
+height: 10%;
+width: 100%;
+background-color: blue;
+ }
