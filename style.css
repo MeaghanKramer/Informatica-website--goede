@@ -79,6 +79,13 @@ background-color: #8860D0;
 float: left;
 }
 
+#lefttext {
+font-size: 150%;
+text-align: left;
+margin-left: 3%;
+margin-right: 3%;
+}
+
 #middle {
 height: 100%;
 width: 70%;
@@ -86,11 +93,31 @@ float: left;
 background-color: #5680E3;
 }
 
+#title {
+text-align: center;
+margin-top: 15%;
+font-size: 500%;
+text-shadow: 4px 4px #8860D0;
+}
+
+#subtitle {
+text-align: center;
+margin-top: 3%;
+font-size: 200%;
+color: paleturquoise;
+}
+
 #rightside {
 height: 100%;
 width: 15%;
 background-color: #8860D0;
 float: left;
+}
+
+#righttext {
+font-size: 150%;
+margin-left: 3%;
+margin-right: 3%;
 }
 
 #bottom {
