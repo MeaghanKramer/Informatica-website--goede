@@ -30,7 +30,7 @@ float: left;
 }
 
 #home:hover {
-background-color: #8860D0;
+background-color: paleturquoise;
 color: white;
 }
 
@@ -41,7 +41,7 @@ float: left;
 }
 
 #information:hover {
-background-color: #8860D0;
+background-color: paleturquoise;
 color: white;
 }
 
@@ -52,7 +52,7 @@ float: left;
 }
 
 #about:hover {
-background-color: #8860D0;
+background-color: paleturquoise;
 color: white;
 }
 
@@ -63,7 +63,7 @@ float: left;
 }
 
 #contact:hover {
-background-color: #8860D0;
+background-color: paleturquoise;
 color: white;
 }
 
