@@ -79,7 +79,7 @@ font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #body {
 height: 80%;
 width: 100%;
-background-color: #5680E3;
+background-image: url("background contact.jpg");
  }
 
 #leftside {
@@ -106,15 +106,15 @@ background-color: #5680E3;
 
 #title {
 text-align: center;
-margin-top: 15%;
-font-size: 500%;
+margin-top: 2%;
+font-size: 300%;
 text-shadow: 4px 4px #8860D0;
 }
 
 #subtitle {
 text-align: center;
-margin-top: 3%;
-font-size: 200%;
+margin-top: 01%;
+font-size: 100%;
 color: paleturquoise;
 }
 
