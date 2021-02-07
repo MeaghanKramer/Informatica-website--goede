@@ -83,11 +83,10 @@ background-color: #5680E3;
  }
 
 #leftside {
-border-radius: 40px 40px 40px 40px;
 height: 100%;
 width: 20%;
-background-color: #8860D0;
 float: left;
+background-image: url("background about.jpg");
 }
 
 #lefttext {
@@ -95,6 +94,7 @@ font-size: 150%;
 text-align: left;
 margin-left: 3%;
 margin-right: 3%;
+color: white;
 }
 
 #middle {
@@ -121,15 +121,15 @@ color: paleturquoise;
 #rightside {
 height: 100%;
 width: 20%;
-background-color: #8860D0;
 float: left;
-border-radius: 40px 40px 40px 40px;
+background-image: url("background about.jpg");
 }
 
 #righttext {
 font-size: 150%;
 margin-left: 3%;
 margin-right: 3%;
+color: white;
 }
 
 #bottom {
