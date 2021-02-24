@@ -88,7 +88,6 @@ width: 100%;
 background-image: url("background about.jpg");
  }
 
-
 #middle {
 height: 100%;
 width: 100%;
@@ -104,9 +103,9 @@ text-shadow: 4px 4px #8860D0;
 }
 
 #about {
-width: 30%;
+width: 40%;
 height: 70%;
-margin-left: 10%;
+margin-left: 5%;
 float: left;
 background-color: #5AB9EA;
 border-radius: 30px 30px 30px 30px;
@@ -119,11 +118,25 @@ margin-left: 2%;
 margin-right: 2%;
 }
 
+#table{
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 5%;
+margin-top: 5%;
+font-size: 150%;
+border-collapse: collapse; border: 1px solid rgb(0, 0, 0); 
+}
+
+#tabletext {
+border: 1px solid #000000; text-align: left;
+width: 100%; 
+ }
+
 #about2 {
-width: 30%;
+width: 40%;
 height: 70%;
 float: right;
-margin-right: 10%;
+margin-right: 5%;
 background-color: #5AB9EA;
 border-radius: 30px 30px 30px 30px;
 }

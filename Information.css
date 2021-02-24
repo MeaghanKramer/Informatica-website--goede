@@ -85,6 +85,8 @@ font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 height: 90%;
 width: 100%;
 background-image: url("background information.jfif");
+min-height: 100%;
+min-width: 1024px;
  }
 
 #middle {
