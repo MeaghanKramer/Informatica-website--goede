@@ -22,6 +22,12 @@ height: 100%;
 float: left;
 }
 
+#logoname {
+width: 55%;
+margin-top: 2%;
+margin-left: 5%;
+}
+
 #home {
 width: 17%;
 height: 100%;
