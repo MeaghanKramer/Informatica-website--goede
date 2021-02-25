@@ -85,12 +85,10 @@ font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 height: 90%;
 width: 100%;
 background-image: url("background information.jfif");
-min-height: 100%;
-min-width: 1024px;
  }
 
 #middle {
-height: 220%;
+height: 290%;
 width: 100%;
 float: left;
 background-image: url("background information.jfif");
@@ -134,7 +132,7 @@ color: #000000
 }
 
 #subheadinformationtext {
-font-size: 200%;
+font-size: 190%;
 margin-left: 3%;
 text-shadow: #8860D0 4px 4px;
 }
@@ -146,9 +144,17 @@ margin-left: 3%;
 margin-right: 3%;
 }
 
+#versus {
+font-size: 120%;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 3%;
+margin-right: 3%;
+}
+
 #video {
-margin-left: 25%;
-margin-top: 40%;
+margin-left: auto;
+margin-right: auto;
+display: block
 }
 
 #bottom {
