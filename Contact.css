@@ -85,62 +85,57 @@ font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #body {
 height: 80%;
 width: 100%;
-background-image: url("background techno.jpg");
+background-image: url("background contact.jpg");
  }
 
 #leftside {
-height: 50%;
+height: 100%;
 width: 20%;
-background-color: #8860D0;
+background-image: url("background contact.jpg");
 float: left;
-}
-
-#lefttext {
-font-size: 150%;
-text-align: left;
-margin-left: 3%;
-margin-right: 3%;
-font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #middle {
 height: 100%;
 width: 60%;
 float: left;
-
+background-color: rgb(38, 89, 207);
 }
 
 #title {
 text-align: center;
-margin-top: 15%;
-font-size: 500%;
+margin-top: 2%;
+font-size: 300%;
 text-shadow: 4px 4px #8860D0;
 }
 
 #subtitle {
 text-align: center;
-margin-top: 3%;
-font-size: 200%;
+margin-top: 0%;
+font-size: 100%;
 color: paleturquoise;
+}
+input, select, textarea {
+  width: 95%; 
+  padding: 01%;  
+  border: 1px solid #8860D0; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 1%; 
+  margin-bottom: 1%; 
+  margin-left: 1%;
+  resize: vertical 
 }
 
 #rightside {
 height: 100%;
 width: 20%;
 float: left;
-border-radius: 40px 40px 40px 40px;
-font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#righttext {
-font-size: 150%;
-margin-left: 3%;
-margin-right: 3%;
+background-image: url("background contact.jpg");
 }
 
 #bottom {
 height: 10%;
 width: 100%;
 background-color:  #5AB9EA;
-
  }
