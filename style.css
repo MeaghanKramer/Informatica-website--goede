@@ -17,79 +17,66 @@ width: 100%;
 height: 10%;
 }
 
-#logo {
-width: 7%;
-height: 100%;
-float: left;
-}
-
-#logoname {
-width: 55%;
-margin-top: 2%;
-margin-left: 5%;
-}
-
 #home {
-width: 17%;
+width: 19%;
 height: 100%;
 float: left;
 }
 
 #home:hover {
-background-color: paleturquoise;
+background-color:rgb(65, 216, 196);
 color: white;
 }
 
 #information{
-width: 17%;
+width: 19%;
 height: 100%;
 float: left;
 }
 
 #information:hover {
-background-color: paleturquoise;
+background-color: rgb(65, 216, 196);
 color: white;
 }
 
 #about {
-width: 17%;
+width: 19%;
 height: 100%;
 float: left;
 }
 
 #about:hover {
-background-color: paleturquoise;
+background-color: rgb(65, 216, 196);
 color: white;
 }
 
 #contact {
-width: 17%;
+width: 19%;
 height: 100%;
 float: left;
 }
 
 #contact:hover {
-background-color: paleturquoise;
+background-color: rgb(65, 216, 196);
 color: white;
 }
 
 #botton {
 text-align: center;
-font-size: 139%;
+font-size: 150%;
 margin-top: 10%;
-vertical-align: center;
-font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
  /* body */
 #body {
 height: 80%;
 width: 100%;
-background-image: url("background techno.jpg");
+background-color: #5680E3;
  }
 
 #leftside {
-height: 50%;
+border-radius: 40px 40px 40px 40px;
+height: 100%;
 width: 20%;
 background-color: #8860D0;
 float: left;
@@ -100,14 +87,13 @@ font-size: 150%;
 text-align: left;
 margin-left: 3%;
 margin-right: 3%;
-font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #middle {
 height: 100%;
 width: 60%;
 float: left;
-
+background-color: #5680E3;
 }
 
 #title {
@@ -127,9 +113,9 @@ color: paleturquoise;
 #rightside {
 height: 100%;
 width: 20%;
+background-color: #8860D0;
 float: left;
 border-radius: 40px 40px 40px 40px;
-font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #righttext {
