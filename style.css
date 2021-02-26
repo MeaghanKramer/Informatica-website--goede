@@ -85,9 +85,6 @@ font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #body {
 height: 80%;
 width: 100%;
-background-image: url("media/background techno.jpg");
-background-position: center;
-background-repeat: no-repeat;
 background-size: cover;
  }
 
@@ -126,6 +123,14 @@ margin-top: 3%;
 font-size: 200%;
 color: paleturquoise;
 }
+
+#homevideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 
 #rightside {
 height: 100%;
