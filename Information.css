@@ -110,7 +110,7 @@ border-radius: 30px 30px 30px 30px;
 text-align: center;
 margin-top: 2%;
 font-size: 300%;
-text-shadow: 4px 4px #8860D0;
+text-shadow: 3.5px 4px #8860D0;
 }
 
 #subtitle {
@@ -123,7 +123,7 @@ color: paleturquoise;
 #headinformationtext {
 font-size: 300%;
 margin-left: 20%;
-text-shadow: #8860D0 4px 4px;
+text-shadow: #8860D0 3.5px 4px;
 }
 
 #introinformationtext {
@@ -137,7 +137,7 @@ color: #000000
 #subheadinformationtext {
 font-size: 190%;
 margin-left: 3%;
-text-shadow: #8860D0 4px 4px;
+text-shadow: #8860D0 3px 2px;
 }
 
 #informationtext {
