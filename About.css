@@ -136,8 +136,12 @@ font-size: 200%;
 #tabletext {
 border: 3px solid #000000;  
 text-align: left;
-
  }
+
+#sum {
+border: 3px solid #000000;  
+text-align: left;
+}
 
 #sannah { 
 max-height: 90%;
@@ -150,7 +154,7 @@ margin-top: 3%;
 max-height: 90%;
 max-width: 90%;
 margin-left: 4%;
-margin-top: 3%;
+margin-top:3%;
 }
 
 #about2 {

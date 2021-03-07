@@ -89,18 +89,16 @@ background-size: cover;
  }
 
 #leftside {
-height: 50%;
+height: 100%;
 width: 20%;
-background-color: #8860D0;
 float: left;
 }
 
 #lefttext {
-font-size: 150%;
-text-align: left;
-margin-left: 3%;
-margin-right: 3%;
-font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+margin-top: 3%;
+font-size: 200%;
+color:aliceblue;
 }
 
 #middle {
@@ -111,10 +109,10 @@ float: left;
 }
 
 #title {
-text-align: center;
+text-align: center
 margin-top: 15%;
 font-size: 500%;
-text-shadow: 4px 4px #8860D0;
+text-shadow: #8860D0 4px 4px;
 }
 
 #subtitle {
