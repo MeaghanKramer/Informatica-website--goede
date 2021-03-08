@@ -102,8 +102,8 @@ background-size: cover;
 text-align: center;
 margin-top: 2%;
 font-size: 300%;
-color: #5AB9EA;
-text-shadow: 4px 4px #8860D0;
+color: rgb(255, 255, 255);
+text-shadow: 4px 4px rgb(58, 53, 129);
 }
 
 #about {
