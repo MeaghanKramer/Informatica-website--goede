@@ -106,12 +106,12 @@ text-align: center;
 margin-top: 2%;
 font-size: 300%;
 color: black;
-text-shadow: 4px 4px rgb(58, 53, 129);
+text-shadow: 4px 4px #8860D0;
 }
 
 #about {
 width: 43%;
-height: 58%;
+height: 65%;
 margin-left: 5%;
 float: left;
 background-color: #5AB9EA;
@@ -163,7 +163,7 @@ margin-top:3%;
 
 #about2 {
 width: 43%;
-height: 58%;
+height: 65%;
 float: right;
 margin-right: 5%;
 background-color: #5AB9EA;
