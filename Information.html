@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title> Information Machine Learning </title>
     <link href="Information.css" rel="stylesheet" type="text/css" />
@@ -11,7 +12,7 @@
        <div id="logo"> 
          <img id="logoname" src="media/logo.png">
        </div>
-
+<nav id="nav">
        <a href="index.html">
          <div id="home"> 
           <h1 id="botton">HOME</h1>
@@ -35,7 +36,7 @@
          <h1 id="botton"> CONTACT US</h1>
        </div>
       </a>
-
+</nav>
     </div>
 
     <div id= "bodymain">
@@ -48,53 +49,64 @@
         <div id="information"> 
           <h2 id="headinformationtext"> What is Machine Learning?
           </h2>
-          <h3 id="introinformationtext"><I> Form of artificial intelligence (Al) that mainly focuses on learning from experience and making predictions.
-Machine Learning is a form of AI and is based on the idea that machines / systems should access data and learn and explore from this data themselves. It is the recognition of patterns from large data sets.</I>
+          <h3 id="introinformationtext"> Form of artificial intelligence (Al) that mainly focuses on learning from experience and making predictions.
+Machine Learning is a form of AI and is based on the idea that machines / systems should access data and learn and explore from this data themselves. It is the recognition of patterns from large data sets.
           </h3>
           <h7 id="subheadinformationtext"> Examples of Machine Learning: 
           </h7> 
           <h5 id="informationtext"> 
-            <ol  ><TT><BIG>
+          <ol>
+            <li>
+            <ul  >
                   <li>Google uses Machine Learning to identify pictures. 
                   </li>
                   <li>Voice assistants like Siri or Google assistant are being trained by Machine Learning to recognise when someone is talking and what to respond to that. 
                   </li>
-                  <li>Spotify uses Machine Learning to make personalized playlists by using your preferences and the type of songs you listen to. </TT></BIG>
+                  <li>Spotify uses Machine Learning to make personalized playlists by using your preferences and the type of songs you listen to. 
                   </li>
-            </ol>
+                  
+            </ul>
+            </li>
+          </ol>
+
           </h5>
           <h7 id="subheadinformationtext"> 
             What is Machine Learning exactly and simple said?
           </h7>
 
-          <h5 id="informationtext"><TT><BIG>
-            Machine learning is a type of artifical intelligence that occurs when computers become more intelligent without humans explicitly teaching them on how to behave. It enables a self-learing form of data and applies that learning without the need for human intervention. The computer identifies patterns in data and learns from its own mistakes.The 3 main forms of machine learning are: supervised learning, unsupervised learning and reinforcement learning.</TT></BIG>
+          <h5 id="informationtext">
+            Machine learning is a type of artifical intelligence that occurs when computers become more intelligent without humans explicitly teaching them on how to behave. It enables a self-learing form of data and applies that learning without the need for human intervention. The computer identifies patterns in data and learns from its own mistakes.The 3 main forms of machine learning are: 
+            <ol> 
+              <li> supervised learning </li>
+              <li> Unsupervised learning </li> 
+              <li> Reinforcement learning </li>
+            </ol>
              </h5>
 
              <h7 id="subheadinformationtext">
                Supervised, unsupervised and reinforcement learning 
              </h7>
 
-             <h5 id="informationtext"> <TT><BIG>
-              Supervised learning: the machine is provided with a lot of information about a certain case and the case outcome is also provided. The outcome is the labeled data and the rest of the information is used as input. An example: the machine is shown a 100 cases when the customers defaulted on a loan and 100 cases where customers didn't default. Things like age and salary are the input, and default/ not- default is the labeled data. With this information the machine can learn the relationships between the outcome default and the input information.</TT></BIG>
+             <h5 id="informationtext"> 
+              Supervised learning: the machine is provided with a lot of information about a certain case and the case outcome is also provided. The outcome is the labeled data and the rest of the information is used as input. An example: the machine is shown a 100 cases when the customers defaulted on a loan and 100 cases where customers didn't default. Things like age and salary are the input, and default/ not- default is the labeled data. With this information the machine can learn the relationships between the outcome default and the input information.
              </h5>
 
-             <h5 id="informationtext"> <TT><BIG>
-              Unsupervised learning: the computer must learn without the help from the user. The machine identifies patterns in the data that is not obvious for the human eye. It recognises patterns and is quite useful to help us make decisions. An example: if we did not know which customers defaulted on loans, but gave the borrower information to the machine, it would be able to see patterns among the borrowers and group them. Unsuperivised learning is used for the detections like uncovering fraudulent transactions or payments.</TT></BIG>
+             <h5 id="informationtext"> 
+              Unsupervised learning: the computer must learn without the help from the user. The machine identifies patterns in the data that is not obvious for the human eye. It recognises patterns and is quite useful to help us make decisions. An example: if we did not know which customers defaulted on loans, but gave the borrower information to the machine, it would be able to see patterns among the borrowers and group them. Unsuperivised learning is used for the detections like uncovering fraudulent transactions or payments.
             </h5>
 
-            <h5 id="informationtext"> <TT><BIG>
-            Reinforcement learning is the closest to humans when it comes to the way of learning. The algorithm continually learns from its environment by interacting with it. For each action it gets a positive or a negative reward. An example; bankloans. A reinforcement learning algorithm looks at the information and classifies the custumor as a high-risk customer. When the person defaults, the algorithm gets a positive reward. If the person doesn't default, it gets a negative reward. The rewards help the agent understand the environment and the problem better and they can now learn for future cases.</TT></BIG>
+            <h5 id="informationtext"> 
+            Reinforcement learning is the closest to humans when it comes to the way of learning. The algorithm continually learns from its environment by interacting with it. For each action it gets a positive or a negative reward. An example; bankloans. A reinforcement learning algorithm looks at the information and classifies the custumor as a high-risk customer. When the person defaults, the algorithm gets a positive reward. If the person doesn't default, it gets a negative reward. The rewards help the agent understand the environment and the problem better and they can now learn for future cases.
             </h5>
 
           <h7 id="subheadinformationtext"> Machine learning versus traditional programming </h7>
 
-          <h5 id="informationtext"><TT><BIG>
-          Traditional programming takes out the data, uses the rules as input and applies the rules to the data to get the answers. Whereas in Machine Learning (ML) the data and the answers are used for input and the new learned rules come as output. It lets the computer learn new rules in a complex space, a space harder to comprehend by humans. For example, a traditional computer program for activity recognition for someone's speed (data) and definiton of activity (rules). The problem: different people walk with variable speeds depending upon, for example, age. With ML lots of example activities with their labels will be given and it will then learn the rules to predict future activity. </TT></BIG>
+          <h5 id="informationtext">
+          Traditional programming takes out the data, uses the rules as input and applies the rules to the data to get the answers. Whereas in Machine Learning (ML) the data and the answers are used for input and the new learned rules come as output. It lets the computer learn new rules in a complex space, a space harder to comprehend by humans. For example, a traditional computer program for activity recognition for someone's speed (data) and definiton of activity (rules). The problem: different people walk with variable speeds depending upon, for example, age. With ML lots of example activities with their labels will be given and it will then learn the rules to predict future activity. 
           </h5> 
 
-          <h5 id="informationtext"><TT><BIG>
-            Traditional programming is manually done and if there occurs something like an error, humans would have to fix it. Machine learning on the other hand learns from its own mistakes and can fix those errors without the need of human assistance.</TT></BIG>
+          <h5 id="informationtext">
+            Traditional programming is manually done and if there occurs something like an error, humans would have to fix it. Machine learning on the other hand learns from its own mistakes and can fix those errors without the need of human assistance.
           </h5>
 
  <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/f_uwKZIAeM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
