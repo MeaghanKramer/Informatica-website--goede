@@ -136,6 +136,17 @@ resize: vertical
 margin-left: 2%;
 }
 
+ #fieldset {
+  background-color: #8860D0;
+  border:0;
+ }
+
+ #legend {
+    background-color:  rgba(145, 54, 231, 0.950);
+  color: white;
+  padding: 5px 10px;
+ }
+
 #rightside {
 height: 100%;
 width: 20%;
@@ -147,8 +158,16 @@ background-image: url("media/background contact.jpg");
 float: right;
 height: 50%;
 width: 100%;
-background-color: #8860D0;
-margin-top: 0%;
+background-color: rgba(145, 54, 231, 0.950);
+margin-top: 0%;    
+border-style: solid;
+border-color: rgb(38, 89, 207);
+border-radius: 0px 0px 30px 30px;
+}
+
+#subject{
+height:150px;
+
 }
 
 #direct {
