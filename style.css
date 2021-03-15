@@ -38,6 +38,12 @@ height: 100%;
 float: left;
 }
 
+@media (max-width: 600px) {
+#home {
+font-size: 50%;
+}
+}
+
 #home:hover {
 background-color: paleturquoise;
 color: white;
@@ -54,6 +60,12 @@ background-color: paleturquoise;
 color: white;
 }
 
+@media (max-width: 600px) {
+#information {
+font-size: 50%;
+}
+}
+
 #about {
 width: 17%;
 height: 100%;
@@ -65,6 +77,12 @@ background-color: paleturquoise;
 color: white;
 }
 
+@media (max-width: 600px) {
+#about {
+font-size: 50%;
+}
+}
+
 #contact {
 width: 17%;
 height: 100%;
@@ -74,6 +92,12 @@ float: left;
 #contact:hover {
 background-color: paleturquoise;
 color: white;
+}
+
+@media (max-width: 600px) {
+#contact {
+font-size: 50%;
+}
 }
 
 #botton {
@@ -109,7 +133,14 @@ float: left;
 text-align: center;
 margin-top: 15%;
 font-size: 500%;
-text-shadow: rgb(207, 53, 161) 4px 4px;
+text-shadow: rgba(207, 53, 161, 0.630) 4px 4px;
+color: rgb(230, 99, 186);
+}
+
+@media(max-width: 600px){
+#title { 
+font-size: 290%;
+}
 }
 
 #subtitle {
@@ -141,9 +172,11 @@ margin-left: 3%;
 margin-right: 3%;
 }
 
+
 #bottom {
 height: 10%;
 width: 100%;
 background-color:  #5AB9EA;
 
  }
+

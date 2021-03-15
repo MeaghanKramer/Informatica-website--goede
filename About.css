@@ -37,6 +37,11 @@ width: 17%;
 height: 100%;
 float: left;
 }
+@media (max-width: 600px) {
+#home {
+font-size: 50%;
+}
+}
 
 #home:hover {
 background-color: paleturquoise;
@@ -47,6 +52,11 @@ color: white;
 width: 17%;
 height: 100%;
 float: left;
+}
+@media (max-width: 600px) {
+#information {
+font-size: 50%;
+}
 }
 
 #information:hover {
@@ -59,6 +69,11 @@ width: 17%;
 height: 100%;
 float: left;
 }
+@media (max-width: 600px) {
+#about {
+font-size: 50%;
+}
+}
 
 #abouttop:hover {
 background-color: paleturquoise;
@@ -69,6 +84,11 @@ color: white;
 width: 17%;
 height: 100%;
 float: left;
+}
+@media (max-width: 600px) {
+#contact {
+font-size: 50%;
+}
 }
 
 #contact:hover {
