@@ -40,7 +40,7 @@ background-color: paleturquoise;
 color: white;
 
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 #home {
 font-size: 50%;
 }
@@ -51,7 +51,7 @@ width: 17%;
 height: 100%;
 float: left;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 #information {
 font-size: 50%;
 }
@@ -67,8 +67,8 @@ width: 17%;
 height: 100%;
 float: left;
 }
-@media (max-width: 600px) {
-#about {
+@media (max-width: 750px) {
+#about{
 font-size: 50%;
 }
 }
@@ -83,7 +83,7 @@ width: 17%;
 height: 100%;
 float: left;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 #contact {
 font-size: 50%;
 }
@@ -164,7 +164,7 @@ margin-left: 2%;
 
  #legend {
     background-color:  rgb(108, 60, 197);
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 5px 10px;
  }
 
@@ -197,6 +197,14 @@ margin-left: 2%;
 height: 100%;
 width: 100%;
 font-family: 'Courier New', Courier, monospace;
+}
+
+}
+
+@media (max-width: 780px) {
+#extra {
+font-size: 50%;
+}
 }
 
 #bottom {

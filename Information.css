@@ -43,7 +43,7 @@ background-color: paleturquoise;
 color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 #home {
 font-size: 50%;
 }
@@ -54,7 +54,7 @@ height: 100%;
 float: left;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 #informationtop {
 font-size: 50%;
 }
@@ -71,7 +71,7 @@ height: 100%;
 float: left;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 #about {
 font-size: 50%;
 }
@@ -93,7 +93,7 @@ background-color: paleturquoise;
 color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 #contact {
 font-size: 50%;
 }
