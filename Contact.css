@@ -124,7 +124,7 @@ float: left;
 height: 100%;
 width: 60%;
 float: left;
-background-color: rgb(38, 89, 207);
+background-color: rgb(16, 62, 168);
 }
 
 #title {
@@ -132,6 +132,7 @@ text-align: center;
 margin-top: 2%;
 font-size: 300%;
 text-shadow: 4px 4px #8860D0;
+color:white 
 }
 
 #subtitle {
@@ -182,8 +183,9 @@ width: 100%;
 background-color: rgb(108, 60, 197);
 margin-top: 0%;    
 border-style: solid;
-border-color: rgb(38, 89, 207);
+border-color: rgb(16, 62, 168);
 border-radius: 0px 0px 30px 30px;
+color:white 
 }
 
 #subject{
@@ -202,7 +204,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 @media (max-width: 780px) {
-#extra {
+#direct {
 font-size: 50%;
 }
 }
@@ -211,4 +213,4 @@ font-size: 50%;
 height: 10%;
 width: 100%;
 background-color:  #5AB9EA;
- }
+ } 

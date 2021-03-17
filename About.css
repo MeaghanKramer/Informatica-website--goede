@@ -7,6 +7,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+
 }
 
 #header {
@@ -105,27 +106,26 @@ font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
  /* body */
 #body {
-height: 120%;
-width: 100%;
-background-image: url("media/background about.jpg");
- }
-
-#middle {
-height: 100%;
-width: 100%;
-float: left;
-background-image: url("media/background about.jpg");
+  width: 100%;
+  padding-bottom:8.19%;
+    background-image: url("media/background about.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+ }
+
+#middle {
+width: 100%;
+overflow: hidden;
+
 }
 
 #title {
 text-align: center;
 margin-top: 2%;
 font-size: 300%;
-color: black;
 text-shadow: 4px 4px #8860D0;
+color:white 
 }
 
 .about {
