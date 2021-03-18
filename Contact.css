@@ -162,6 +162,12 @@ resize: vertical
 margin-left: 2%;
 }
 
+@media (max-width: 750px) {
+#description{
+font-size: 50%;
+}
+}
+
 #fieldset {
 background-color: #8860D0;
 border:0;
@@ -171,6 +177,30 @@ border:0;
 background-color:  rgb(108, 60, 197);
 color: rgb(255, 255, 255);
 padding: 5px 10px;
+}
+
+@media (max-width: 750px) {
+#fname{
+font-size: 50%;
+}
+}
+
+@media (max-width: 750px) {
+#country{
+font-size: 50%;
+}
+} 
+
+@media (max-width: 750px) {
+#subject{
+font-size: 50%;
+}
+}
+
+@media (max-width: 750px) {
+#mail{
+font-size: 50%;
+}
 }
 
 #rightside {
