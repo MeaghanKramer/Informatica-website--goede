@@ -117,7 +117,7 @@ background-image: url("media/background information.jfif");
  }
 
 #middle {
-height: 350%;
+height: 400%;
 width: 100%;
 float: left;
 background-image: url("media/background information.jfif");
@@ -128,7 +128,7 @@ background-size: cover;
 
 #information {
 width: 80%;
-height: 80%;
+height: 93%;
 margin-left: 10%;
 margin-right: 10%;
 background-color: rgb(66, 150, 192);
@@ -157,6 +157,15 @@ text-shadow: #8860D0 4px 4px;
 color:white 
 }
 
+@media (max-width: 830px) {
+#headinformationtext {
+font-size: 200%;
+margin-left: 30%;
+text-shadow: #8860D0 4px 4px;
+color:white 
+}
+}
+
 #introinformationtext {
 font-size: 140%;
 font-family: Arial, Helvetica, sans-serif;
@@ -165,6 +174,17 @@ margin-right: 3%;
 color: #000000
 }
 
+@media (max-width: 830px) {
+#introinformationtext {
+font-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 3%;
+margin-right: 3%;
+color: #000000
+}
+}
+
+
 #subheadinformationtext {
 font-size: 190%;
 margin-left: 3%;
@@ -172,11 +192,29 @@ text-shadow: #8860D0 3px 2px;
 color:white 
 }
 
+@media (max-width: 830px) {
+#subheadinformationtext {
+font-size: 130%;
+margin-left: 3%;
+text-shadow: #8860D0 3px 2px;
+color:white 
+}
+}
+
 #informationtext {
 font-size: 120%;
 font-family: Arial, Helvetica, sans-serif;
 margin-left: 3%;
 margin-right: 3%;
+}
+
+@media (max-width: 830px) {
+#informationtext {
+font-size: 80%;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 3%;
+margin-right: 3%;
+}
 }
 
 #versus {
@@ -190,6 +228,14 @@ margin-right: 3%;
 margin-left: auto;
 margin-right: auto;
 display: block
+}
+
+@media (max-width: 830px) {
+#video {
+margin-left: 5%;
+margin-bottom: 5%;
+width:90% ;
+}
 }
 
 #bottom {
