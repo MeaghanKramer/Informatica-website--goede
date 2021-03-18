@@ -1,109 +1,131 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-   <title> Contact Machine Learning </title>
-   <link href="Contact.css" rel="stylesheet" type="text/css" />
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="shortcut icon" type="image/png" href="media/logo.png">
-  </head>
+<head>
+  <title> Contact Machine Learning </title>
+  <link href="Contact.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="media/logo.png">
+</head>
 
   <body>
     <div id="header">
+
        <div id="logo"> 
          <img id="logoname" src="media/logo.png">
        </div>
 
-<nav id="nav">
-      <a href="index.html">
-       <div id="home"> 
-         <h1 id="botton">HOME</h1>
-       </div>
-      </a>
+       <nav id="nav">
 
-      <a href="Information.html">
-       <div id="information"> 
-         <h1 id="botton">  INFORMATION </h1>
-       </div>
-      </a>
+         <a href="index.html">
+          <div id="home"> 
+           <h1 id="botton">HOME</h1>
+          </div>
+         </a>
 
-      <a href="About.html">
-       <div id="about">
-         <h1 id="botton">  ABOUT US </h1>
-       </div>
-      </a> 
+         <a href="Information.html">
+          <div id="information"> 
+           <h1 id="botton">  INFORMATION </h1>
+          </div>
+         </a>
 
-      <a href="Contact.html">
-       <div id="contact">  
-         <h1 id="botton">  CONTACT US</h1>
-       </div>       
-      </a>
-</nav>
-     </div>
+         <a href="About.html">
+          <div id="about">
+           <h1 id="botton">  ABOUT US </h1>
+         </div>
+         </a> 
+
+         <a href="Contact.html">
+          <div id="contact">  
+           <h1 id="botton">  CONTACT US</h1>
+          </div>       
+         </a>
+
+       </nav>
+
+    </div>
 
     <div id= "body">
+    
       <div id="leftside"> 
       </div>
       
       <div id="middle">
+
         <h1 id="title"> Contact us! </h1>
 
-      <div class="container">
+        <div class="container">
       
-<form action="action_page.php" >
+          <form action="action_page.php" >
 
-  <fieldset id="fieldset">
+            <fieldset id="fieldset">
 
-    <legend id="legend"> Your information! </legend>
-          <label for="fname" id="description"> <strong>First and last name</strong></label>
+              <legend id="legend"> Your information! </legend>
+               <label for="fname" id="description"> <strong>
+                  First and last name
+               </strong></label>
 
-           <input required type="text" id="fname" name="firstname" placeholder="Your name...">
+              <input required type="text" id="fname" name="firstname" placeholder="Your name...">
+               <label   for="country" id="description"><strong>
+                 Country
+                </strong>
+                </label>
 
-      <label   for="country" id="description"><strong>Country</strong></label>
+               <select id="country" name="country">
 
-      <select id="country" name="country">
-      <option value="optional!"> Optional: choose your country!</option>
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-      <option value="netherlands"> The Netherlands</option>
-      <option value="belgium"> Belgium </option>
-      <option value="germany"> Germany </option>
-      <option value="france"> France </option>
-      <option value="spain"> Spain </option>
-      <option vlaue="portugal"> Portugal </option>
-      <option vlalue="italy"> Italy </option>
-      <option value="croatia"> Croatia </option>
-      <option value="uk"> UK </option>
-      <option value="swiss"> Swiss </option>
-      <option value="austria"> Austria </option>
-    </select>
+                 <option value="optional!"> 
+                   Optional: choose your country!</option>
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+                 <option value="netherlands"> The Netherlands</option>
+                 <option value="belgium"> Belgium </option>
+                 <option value="germany"> Germany </option>
+                 <option value="france"> France </option>
+                 <option value="spain"> Spain </option>
+                 <option vlaue="portugal"> Portugal </option>
+                 <option vlalue="italy"> Italy </option>
+                 <option value="croatia"> Croatia </option>
+                 <option value="uk"> UK </option>
+                 <option value="swiss"> Swiss </option>
+                 <option value="austria"> Austria </option>
 
-    <label  for="message" id="description"> <strong> Message and or question for us </strong></label>
+               </select>
 
-    <input required id="subject" name="subject" placeholder="Write your message here..." </input>
+               <label  for="message" id="description"> <strong>         Message and or question for us 
+               </strong>
+               </label>
+               <input required id="subject" name="subject" placeholder="Write your message here..." </input>
 
-    <label required for="e-mail" id="description"><strong>E-mail / Phone number</strong></label>
+               <label required for="e-mail" id="description"><strong>
+                  E-mail / Phone number
+               </strong>
+               </label>
+               <input required id="mail" name="subject" placeholder="Write your e-mail or phone number here..." ></input>
 
-    <input required id="mail" name="subject" placeholder="Write your e-mail or phone number here..." ></input>
-
-    <input type="submit" value="Submit">
-    </fieldset>
-  </form>
+               <input type="submit" value="Submit">
+          
+           </fieldset>
+         </form>
   
-</div>
+        </div>
        </div>
       
       <div id="rightside"> 
         <div id="extra">
-        <h3 id="direct"> We are located at the Sint-Maartenscollege in the Netherlands. To directly contact us, please mail these addresses:
+          <h3 id="direct"> 
+              We are located at the Sint-Maartenscollege in the Netherlands. To directly contact us, please mail these addresses:
+
            <ul>
              <li> 110712@st-maartenscollege.nl(Meaghan Kramer) </li>
               <li> 110873@st-maartenscollege.nl(Sannah Kuip)</li> 
            </ul>
+
         </h3>
-        </div>
+       </div>
+
       </div>
+
     </div>
     
     <div id= "bottom"> </div>

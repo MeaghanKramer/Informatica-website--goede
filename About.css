@@ -2,12 +2,12 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   height: 100%;
   width: 100%;
   margin: 0px;
   padding: 0px;
-
 }
 
 #header {
@@ -16,6 +16,7 @@ top: 0px;
 width: 100%;
 height: 10%;
 }
+
  #nav{
  height: 100%;
  }
@@ -37,6 +38,7 @@ width: 17%;
 height: 100%;
 float: left;
 }
+
 @media (max-width: 750px) {
 #home {
 font-size: 50%;
@@ -53,6 +55,7 @@ width: 17%;
 height: 100%;
 float: left;
 }
+
 @media (max-width: 750px) {
 #information {
 font-size: 50%;
@@ -69,6 +72,7 @@ width: 17%;
 height: 100%;
 float: left;
 }
+
 @media (max-width: 750px) {
 #abouttop {
 font-size: 50%;
@@ -85,6 +89,7 @@ width: 17%;
 height: 100%;
 float: left;
 }
+
 @media (max-width: 750px) {
 #contact {
 font-size: 50%;
@@ -106,9 +111,9 @@ font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
  /* body */
 #body {
-  width: 100%;
-  padding-bottom:8.19%;
-    background-image: url("media/background about.jpg");
+width: 100%;
+padding-bottom:8.19%;
+background-image: url("media/background about.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -117,7 +122,6 @@ background-size: cover;
 #middle {
 width: 100%;
 overflow: hidden;
-
 }
 
 #title {
@@ -142,12 +146,12 @@ border-radius: 30px 30px 30px 30px;
 }
 
 @media (max-width:900px){
-  .about{
-    float: none;
-    width:auto;
-    margin:0 5%;
-    margin-left: 5%;
-  }
+.about{
+float: none;
+width:auto;
+margin:0 5%;
+margin-left: 5%;
+}
 }
 
 #table{
@@ -164,14 +168,14 @@ border-collapse: collapse; border: 1px solid rgb(0, 0, 0);
 #tabletext1 {
 text-align: center;
 border: 3px solid #000000;
-font-family:  fantasy;
+font-family: fantasy;
 font-size: 200%;
 }
 
 #tabletext {
 border: 3px solid #000000;  
 text-align: left;
- }
+}
 
 #sum {
 border: 3px solid #000000;  
@@ -192,24 +196,23 @@ margin-left: 4%;
 margin-top:3%;
 }
 
-
 #bottom {
 height: 10%;
 width: 100%;
 background-color:  #5AB9EA;
+}
 
- }
 tr {
-  height: 100%;
-  width: 100%;
+height: 100%;
+width: 100%;
 }
 
 .lefttable {
-  height: 20%;
-  width: 80%;
+height: 20%;
+width: 80%;
 }
 
 .righttable {
-  height: 20%;
-  width: 20%;
+height: 20%;
+width: 20%;
 }

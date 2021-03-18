@@ -1,12 +1,13 @@
 html {
-  height: 100%;
-  width: 100%;
+height: 100%;
+width: 100%;
 }
+
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+height: 100%;
+width: 100%;
+margin: 0px;
+padding: 0px;
 }
 
 #header {
@@ -48,6 +49,7 @@ color: white;
 font-size: 50%;
 }
 }
+
 #informationtop{
 width: 17%;
 height: 100%;
@@ -194,4 +196,4 @@ display: block
 width: 100%;
 height:2%;
 background-image: url("media/background information.jfif");
- }
+}
